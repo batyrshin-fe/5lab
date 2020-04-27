@@ -5,7 +5,7 @@ namespace lab5
 	class Program
     {
 		/// <summary>
-        /// Основное тело программы, отвечающее за ее работоспособность
+        /// РћСЃРЅРѕРІРЅРѕРµ С‚РµР»Рѕ РїСЂРѕРіСЂР°РјРјС‹, РѕС‚РІРµС‡Р°СЋС‰РµРµ Р·Р° РµРµ СЂР°Р±РѕС‚РѕСЃРїРѕСЃРѕР±РЅРѕСЃС‚СЊ
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
@@ -17,7 +17,7 @@ namespace lab5
         }
     }
     /// <summary>
-    /// Класс фасада
+    /// РљР»Р°СЃСЃ С„Р°СЃР°РґР°
     /// </summary>
     public class Facade
     {
@@ -26,10 +26,10 @@ namespace lab5
         protected Subsystem2 _subsystem2;
 
 		/// <summary>
-        /// Конструктор класса
+        /// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР°
         /// </summary>
-        /// <param name="subsystem1">подсистема 1</param>
-		/// <param name="subsystem2">подсистема 2</param>
+        /// <param name="subsystem1">ГЇГ®Г¤Г±ГЁГ±ГІГҐГ¬Г  1</param>
+		/// <param name="subsystem2">ГЇГ®Г¤Г±ГЁГ±ГІГҐГ¬Г  2</param>
         public Facade(Subsystem1 subsystem1, Subsystem2 subsystem2)
         {
             this._subsystem1 = subsystem1;
@@ -38,7 +38,7 @@ namespace lab5
         
 
 		/// <summary>
-        /// Процедура для инициализации подсистемы
+        /// РџСЂРѕС†РµРґСѓСЂР° РґР»СЏ РёРЅРёС†РёР°Р»РёР·Р°С†РёРё РїРѕРґСЃРёСЃС‚РµРјС‹
         /// </summary>
         public string Operation()
         {
@@ -53,12 +53,12 @@ namespace lab5
     }
     
     /// <summary>
-    /// Класс 1 подсистемы
+    /// РљР»Р°СЃСЃ 1 РїРѕРґСЃРёСЃС‚РµРјС‹
     /// </summary>
     public class Subsystem1
     {
 		/// <summary>
-        /// Процедура готовности 1 подсистемы
+        /// РџСЂРѕС†РµРґСѓСЂР° РіРѕС‚РѕРІРЅРѕСЃС‚Рё 1 РїРѕРґСЃРёСЃС‚РµРјС‹
         /// </summary>
         public string operation1()
         {
@@ -66,7 +66,7 @@ namespace lab5
         }
 		
 		/// <summary>
-        /// Процедура Go
+        /// РџСЂРѕС†РµРґСѓСЂР° Go
         /// </summary>
         public string operationN()
         {
@@ -75,12 +75,12 @@ namespace lab5
     }
     
     /// <summary>
-    /// Класс 2 подсистемы
+    /// РљР»Р°СЃСЃ 2 РїРѕРґСЃРёСЃС‚РµРјС‹
     /// </summary>
     public class Subsystem2
     {
 		/// <summary>
-        /// Процедура готовности 2 подсистемы
+        /// РџСЂРѕС†РµРґСѓСЂР° РіРѕС‚РѕРІРЅРѕСЃС‚Рё 2 РїРѕРґСЃРёСЃС‚РµРјС‹
         /// </summary>
         public string operation1()
         {
@@ -88,7 +88,7 @@ namespace lab5
         }
 		
 		/// <summary>
-        /// Процедура Fire
+        /// РџСЂРѕС†РµРґСѓСЂР° Fire
         /// </summary>
         public string operationZ()
         {
@@ -97,12 +97,12 @@ namespace lab5
     }
 
 	/// <summary>
-    /// Клиентский класс
+    /// РљР»РёРµРЅС‚СЃРєРёР№ РєР»Р°СЃСЃ
     /// </summary>
     class Client
     {
         // <summary>
-        /// Процедура кода клиента
+        /// РџСЂРѕС†РµРґСѓСЂР° РєРѕРґР° РєР»РёРµРЅС‚Р°
         /// </summary>
         /// <param name="facade">Facade</param>
         public static void ClientCode(Facade facade)
