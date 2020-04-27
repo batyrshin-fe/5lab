@@ -4,7 +4,7 @@ namespace lab5
 {
 	class Program
     {
-		/// <summary>
+	/// <summary>
         /// Основное тело программы, отвечающее за ее работоспособность
         /// </summary>
         /// <param name="args"></param>
@@ -37,7 +37,7 @@ namespace lab5
         }
         
 
-		/// <summary>
+	/// <summary>
         /// Процедура для инициализации подсистемы
         /// </summary>
         public string Operation()
@@ -57,7 +57,7 @@ namespace lab5
     /// </summary>
     public class Subsystem1
     {
-		/// <summary>
+	/// <summary>
         /// Процедура готовности 1 подсистемы
         /// </summary>
         public string operation1()
@@ -65,7 +65,7 @@ namespace lab5
             return "Subsystem1: Ready!\n";
         }
 		
-		/// <summary>
+	/// <summary>
         /// Процедура Go
         /// </summary>
         public string operationN()
@@ -79,7 +79,7 @@ namespace lab5
     /// </summary>
     public class Subsystem2
     {
-		/// <summary>
+	/// <summary>
         /// Процедура готовности 2 подсистемы
         /// </summary>
         public string operation1()
@@ -87,7 +87,7 @@ namespace lab5
             return "Subsystem2: Get ready!\n";
         }
 		
-		/// <summary>
+	/// <summary>
         /// Процедура Fire
         /// </summary>
         public string operationZ()
@@ -96,7 +96,7 @@ namespace lab5
         }
     }
 
-	/// <summary>
+    /// <summary>
     /// Клиентский класс
     /// </summary>
     class Client
